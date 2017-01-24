@@ -12,7 +12,7 @@
   </head>
   <body>
     <h1>I'm So Interesting, Blog</h1>
-    <img src="https://cdn-images-1.medium.com/max/800/1*wSThOs4uY74e4PkqnaUBdw.jpeg"/>
+    <img src="https://cdn-images-1.medium.com/max/800/1*wSThOs4uY74e4PkqnaUBdw.jpeg" alt="picture of puppy studying coding"/>
     <p>Have you ever met somebody so dull, that they are extremely interesting?<br>
       Whether you have or haven't, It's nice to meet you!<br>
       I'm Nikki, and I am extremely dull and incredibly boring!<br>
@@ -52,5 +52,36 @@
         </tr>
       </tbody>
     </table>
+    <form>
+      <h3>Please Answer the Following Questions</h3>
+      <label>
+        Last Name:<input type="text" id="last_name" name="last_name">
+      </label>
+      <label>
+        First Name:<input type="text" id="first_name" name="first_name">
+      </label>
+      <p>Male or Female?</p>
+      <label for="male">Male</label>
+      <input type="radio" id="male" name="gender" value="male">
+      <label for="female">Female</label>
+      <input type="radio" id="female" name="gender" value="female">
+      <p>Pick One, Quickly!</p>
+      <select name="pick_one">
+        <option value="dogs">Doggos</option>
+        <option value="cats">Cats</option>
+        <option value="pandas">Panda Bears!</option>
+      </select>
+      <p>Which Gaming Systems do you Own?</p>
+      <p>*you can pick more than one!*</p>
+      <label for="xbox">Xbox One</label>
+      <input type="checkbox" id="xbox" name="gamesystem" value="xbox">
+      <label for="ps4">PS4 Pro</label>
+      <input type="checkbox" id="ps4" name="gamesystem" value="ps4">
+      <label for="pc">PC</label>
+      <input type="checkbox" id="pc" name="gamesystem" value="pc">
+      <label for="no">No. Just No.</label>
+      <input type="checkbox" id="no" name="gamesystem" value="no">
+      <input type="submit" value="submit">
+    </form>
   </body>
 </html>
